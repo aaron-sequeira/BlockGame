@@ -82,6 +82,14 @@ Survive as long as possible without getting hit by falling blocks.
 
 ---
 
+## 📸 Gameplay
+
+![Gameplay](images/gameplay.png)
+
+## 💀 Game Over Screen
+
+![Game Over](images/gameover.png)
+
 ## 👨‍💻 Author
 
 Made as a learning project using Godot Engine.
