@@ -92,4 +92,4 @@ Survive as long as possible without getting hit by falling blocks.
 
 ## 👨‍💻 Author
 
-Made as a learning project using Godot Engine.
+Made as a learning project using Godot Engine and for greater understanding of game design.
