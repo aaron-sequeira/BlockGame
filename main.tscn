@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://snmstbjq74js"]
+
+[ext_resource type="Script" uid="uid://cfuochrkq6xbx" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://bj82kdmr8kolj" path="res://player.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://jats5e4s2ge7" path="res://game_over_ui.tscn" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=1427522111]
+script = ExtResource("1_ig7tw")
+
+[node name="SpawnTimer" type="Timer" parent="." unique_id=1510017065]
+
+[node name="Player" parent="." unique_id=1404411566 instance=ExtResource("2_0xm2m")]
+position = Vector2(240, 600)
+
+[node name="GameOverUI" parent="." unique_id=1306008058 instance=ExtResource("3_h2yge")]
+process_mode = 3

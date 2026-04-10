@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://jats5e4s2ge7"]
+
+[ext_resource type="Script" uid="uid://2bjinfpu760d" path="res://game_over_ui.gd" id="1_ji7mg"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ji7mg"]
+
+[node name="GameOverUI" type="Control" unique_id=1306008058]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ji7mg")
+
+[node name="Label" type="Label" parent="." unique_id=845738481]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Game over"
+
+[node name="Button" type="Button" parent="." unique_id=124574557]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 90.0
+offset_bottom = 51.0
+text = "Restart"
+icon = SubResource("PlaceholderTexture2D_ji7mg")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
